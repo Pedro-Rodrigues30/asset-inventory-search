@@ -1,0 +1,60 @@
+{
+  "name": "asset-inventory-all",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.5.8",
+    "@hitachivantara/uikit-react-core": "^3.53.0",
+    "@hitachivantara/uikit-react-icons": "^3.7.2",
+    "@hitachivantara/uikit-react-lab": "^3.39.0",
+    "@material-ui/core": "^4.12.3",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "clsx": "^1.1.1",
+    "graphql": "^16.3.0",
+    "i18next": "^21.6.10",
+    "i18next-browser-languagedetector": "^6.1.3",
+    "i18next-http-backend": "^1.3.2",
+    "js-cookie": "^2.2.1",
+    "plotly.js-basic-dist": "^1.58.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.15.3",
+    "react-router-dom": "^5.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src --color",
+    "format": "prettier --write 'src/**/*.{ts,tsx,scss,css,json}'"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@types/js-cookie": "^3.0.1",
+    "@types/node": "^17.0.12",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-router-dom": "^5.3.3",
+    "eslint-config-airbnb-typescript-prettier": "^5.0.0",
+    "prettier": "^2.5.1",
+    "react-scripts": "^5.0.0",
+    "typescript": "^4.5.5"
+  }
+}
