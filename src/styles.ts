@@ -1,29 +1,21 @@
-import { makeStyles } from "@material-ui/core";
+import { HvDropdown } from "@hitachivantara/uikit-react-core";
+import { makeStyles, withStyles } from "@material-ui/core";
 
 const useStyles = makeStyles(() => ({
-  item: {
-    padding: "20px",
-  },
-  kpis: {
-    display: "flex",
-  },
-  timestamp: {
-    paddingRight: "20px",
-    borderRight: `solid 1px`,
-    marginRight: "20px",
-  },
-  timestamp2: {
-    padding: "20px",
-  },
-  columnSplitter: {
-    background: "20px",
-    width: "1px",
-    height: "16px",
-    marginRight: "20px",
-  },
-  icon: {
-    margin: "20px",
+  dialog: {
+    "& .HvDialog-paper": {
+      width: "100%",
+    },
+    "& .HvDialogContent-root": {
+      height: "120px",
+    },
   },
 }));
+
+export const StyledDropdown = withStyles({
+  root: {
+    width: "300px",
+  },
+})(HvDropdown);
 
 export default useStyles;

@@ -1,10 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import {
-  HvAssetInventory,
-  HvCardView,
-  HvEmptyState,
-} from "@hitachivantara/uikit-react-core";
+import { HvAssetInventory, HvCardView, HvEmptyState } from "@hitachivantara/uikit-react-core";
 import { Cards, Fail, List } from "@hitachivantara/uikit-react-icons";
 import { usePeople } from "./data";
 import { actions, configuration } from "./utils";
@@ -37,20 +33,15 @@ const AssetInventory = () => {
       hasPagination
       pageSize={8}
       pageSizeOptions={[2, 4, 6, 8]}
-      searchProps={{ "aria-label": labels.search }}
       multibuttonProps={[
         {
           id: "card-button",
           icon: <Cards />,
-          "aria-label": labels.cardView,
         },
-        { id: "list-button", icon: <List />, "aria-label": labels.listView },
+        { id: "list-button", icon: <List /> },
       ]}
       emptyComponent={
-        <HvEmptyState
-          message={labels.noMessage}
-          icon={<Fail iconSize="S" color="acce1" />}
-        />
+        <HvEmptyState message={labels.noMessage} icon={<Fail iconSize="S" color="acce1" />} />
       }
     >
       <HvCardView id="card" renderer={cardRenderer} />
