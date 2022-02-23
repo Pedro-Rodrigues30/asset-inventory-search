@@ -3,22 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@apollo/client": "^3.5.8",
     "@hitachivantara/uikit-react-core": "^3.56.2",
     "@hitachivantara/uikit-react-lab": "^3.39.12",
     "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "clsx": "^1.1.1",
-    "graphql": "^16.3.0",
-    "i18next": "^21.6.10",
-    "i18next-browser-languagedetector": "^6.1.3",
-    "i18next-http-backend": "^1.3.2",
     "js-cookie": "^2.2.1",
     "plotly.js-basic-dist": "^1.58.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-i18next": "^11.15.3",
     "react-router-dom": "^5.2.0"
   },
   "scripts": {
